@@ -24,6 +24,8 @@ for i in range(len(wenjian)):
                 pass
             else:
                 print("excel中%s的是否可空与系统中不一致" % wenjian[i]['字段名称'], wenjian[i]['是否可空'] ,systerm[j]['nullStatus'])
+            break
+
         else:
             j+=1
 

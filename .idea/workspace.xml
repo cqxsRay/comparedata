@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43e345e5-b5a2-40eb-9e5c-a9161410aa10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contrast.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/白条开新_基础信息验证_DataModel_CDS_V2.17_20190716.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reexcel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/file/a.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/platdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrast.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrast.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +177,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565749999969</updated>
-      <workItem from="1565750028557" duration="44003000" />
+      <workItem from="1565750028557" duration="45386000" />
     </task>
     <servers />
   </component>
@@ -215,7 +210,7 @@
     <SUITE FILE_PATH="coverage/demo1$compareexcel.coverage" NAME="compareexcel Coverage Results" MODIFIED="1565768991187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/demo1$platdata.coverage" NAME="platdata Coverage Results" MODIFIED="1565952945101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/demo1$test.coverage" NAME="test Coverage Results" MODIFIED="1565923854247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/demo1$contrast.coverage" NAME="contrast Coverage Results" MODIFIED="1565959050444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/demo1$contrast.coverage" NAME="contrast Coverage Results" MODIFIED="1565960388382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/demo1$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1565923991609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/demo1$monilogin.coverage" NAME="monilogin Coverage Results" MODIFIED="1565863798201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/demo1$reexcel.coverage" NAME="reexcel Coverage Results" MODIFIED="1565934825167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
