@@ -24,9 +24,35 @@ def getdata():
     # 获取出参
     outparam = a.json()['data']['paramOutList']
     # 获取数据项
-    # dataiterm=a.json()['data']['itemConfigList']
+    dataiterm=a.json()['data']['itemConfigList']
     # 获取入参
-    # inparam=a.json()['data']['paramInList']
-    print(outparam)
+    inparam=a.json()['data']['paramInList']
+    # 将3个tab中数据合到一个列表
+    datalist=[]
+    for i in outparam:
+        datalist.append(i)
+    for j in dataiterm:
+        datalist.append(j)
+    for g in inparam:
+        datalist.append(g)
 
-getdata()
+    # """
+    # 洗数据，更改系统数据与excel一致,也可以不洗，做一种对应关系
+    # """
+    for i in range(len(datalist)):
+        if datalist[i]['dataType'] ==0 :
+            datalist[i]['dataType']="string"
+        elif datalist[i]['dataType'] ==1 :
+            datalist[i]['dataType']="int"
+        elif datalist[i]['dataType'] ==2 :
+            datalist[i]['dataType']="double"
+        else:
+            print("未知类型")
+        if datalist[i]['nullStatus'] ==1 :
+            datalist[i]['nullStatus']="是"
+        else:
+            datalist[i]['nullStatus']="否"
+
+    return datalist
+
+# getdata()
