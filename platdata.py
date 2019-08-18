@@ -52,7 +52,5 @@ def getdata():
             datalist[i]['nullStatus']="是"
         else:
             datalist[i]['nullStatus']="否"
-
     return datalist
 
-# getdata()

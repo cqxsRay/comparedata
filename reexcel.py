@@ -37,8 +37,6 @@ class read_xls:
             print("总行数小于1")
         else:
             cls = []
-            # 一般excel是从第1行开始有数据
-            # for i in range(1, self.rows):
             # 针对这个excel是从第4行开始有数据
             for i in range(3, self.rows):
                 s = {}
@@ -60,5 +58,3 @@ class read_xls:
                 cls.append(s)
             # 返回excel解析的数据
             return cls
-# ff=read_xls('白条开新_基础信息验证_DataModel_CDS_V2.17_20190716.xlsx','信息验证输入输出报文')
-# ff.dict_xls()
